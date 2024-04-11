@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USERS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .nav_bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background: #113f67;
+        }
+
+        .nav_bar h1 {
+            margin: 15px;
+        }
+
+        .nav_bar ul {
+            list-style: none;
+            padding: 5px;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+
+        .nav_bar li {
+            margin: 5px 10px;
+        }
+
+        .nav_bar a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .img1 {
+            width: 100%;
+        }
+
+        .desc {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .desc p {
+
+            width: 50%;
+            font-weight: 700;
+            font-size: 30px;
+            color: #f96d00;
+        }
+
+        .desc img {
+            align-self: flex-end;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            width: 50%;
+            font-weight: 900;
+            font-size: 20px;
+            color: #5585b5;
+
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background: #680747;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="nav_bar">
+        <nav>
+            <ul>
+                <li>
+                    <h1><strong>USERS SITE</strong></h1>
+                </li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#desc">Description</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#footer_sec">Contact Us</a></li>
+                <li><a class="btn btn-success" href="./authentication/login.php">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div>
+        <center>
+            <h1><strong>WELCOME TO THE HOMEPAGE</strong></h1>
+        </center>
+        <br>
+        <p>
+            <img class="img1" src="./images/users.jpg" alt="usersPic">
+        </p>
+    </div>
+    <br>
+
+
+    <section id="desc">
+        <h1><strong>DESCRIPTION</strong></h1>
+        <br>
+        <div class="desc">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatibus inventore voluptatem
+                tenetur, perferendis voluptates animi debitis nihil, eligendi impedit excepturi facilis neque deserunt
+                asperiores in? Maiores neque nostrum fugiat eum? Deserunt facilis autem omnis assumenda illum asperiores
+                fugit incidunt explicabo, magni tempora excepturi dignissimos. Voluptates tempora delectus dicta sint?
+            </p>
+            <p><img src="./images/image.avif" alt="users"></p>
+        </div>
+    </section>
+   
+    <br> <br>
+
+    <section id="about">
+        <h1><strong>ABOUT US</strong></h1>
+        
+        <div class="about">
+        
+            <p>At USERS SITE, we're passionate about creating an inclusive online community where users can connect, share,
+                and thrive.
+                Our platform is designed to empower individuals from all walks of life to express themselves, discover new
+                interests,
+                and engage in meaningful conversations. With a commitment to user privacy and security, we provide a safe
+                and welcoming
+                environment for everyone. Whether you're here to explore our diverse range of content, connect with
+                like-minded
+                individuals, or simply unwind, we strive to make your experience enjoyable and enriching. Join us on this
+                journey as we
+                continue to innovate and evolve, making USERS SITE the ultimate destination for online discovery and
+                connection.
+            </p>
+        
+        </div>
+    </section>
+    
+
+    <section id="footer_sec">
+        <footer>
+            <div>
+                <h1><strong>CONTACT US</strong></h1>
+                <img style="width: 45px; height: 45px;" src="./images/location-dot-solid.svg" alt="location">
+                <h2>Alabama , Orange Beach</h2>
+                <img style="width: 45px; height: 45px;" src="./images/phone-solid.svg" alt="">
+                <h2>+250-782260439</h2>
+                <img style="width: 45px; height: 45px;" src="./images/envelope-regular.svg" alt="">
+                <h2>humura74@gmail.com</h2>
+                <h2>All Copyright reserverd &copy; | 2024 @HUMURA74</h2>
+            </div>
+            <div>
+                <h1><strong>SEND US A MESSAGE</strong></h1><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email"><br><br>
+                <textarea name="" id="" cols="50" rows="10" placeholder="Type a message ...."></textarea><br><br>
+                <input type="submit" class="btn btn-primary" value="Send">
+                <br>
+            </div>
+
+
+
+        </footer>
+
+    </section>
+   
+
+
+</body>
+
+</html>
